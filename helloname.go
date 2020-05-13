@@ -6,7 +6,7 @@ func main(){
 
 	fmt.Print("Enter your name: ")
 	var input string
-	fmt.Scanf("%s", &input)
+	fmt.Scanf("%d", &input)
 
 	fmt.Println("Hello " + input + "!")
 }
